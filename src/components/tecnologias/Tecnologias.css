@@ -1,0 +1,25 @@
+.titulo-tecnologia{
+    text-align: center;
+    color: rgb(169, 169, 169);
+}
+.icon-tecno{
+    height: 80px;
+    width: 80px;
+}
+.titulo-curriculum{
+    text-align: center;
+    color: rgb(169, 169, 169);
+}
+.container-tecnoycv{
+    width: 90%;
+    margin: auto;
+}
+.cont-icon{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container-tecno{
+    width: 80%;
+    margin: auto;
+}
