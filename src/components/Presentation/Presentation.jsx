@@ -1,6 +1,7 @@
 import "../Presentation/Presentation.css"
 import {AiFillLinkedin} from 'react-icons/ai';
 import {BsGithub} from 'react-icons/bs';
+import {MdKeyboardArrowDown} from 'react-icons/md';
 export const Presentation=()=>{
 return(
     <div className="presentation">
@@ -21,10 +22,10 @@ return(
                 </div>
             </div>
             <div className="container-img-present col-lg-6">
-                <img className="img-present" src="https://i.postimg.cc/8zXScmKW/gris.jpg"></img>
+                <img className="img-present img-fluid" src="https://i.postimg.cc/8zXScmKW/gris.jpg"></img>
             </div>
         </div>
-
+    <div className="container-flecha col-12"><a href="#tecnologias">< MdKeyboardArrowDown size={120} className="img-flecha" /></a> </div>
     </div>
 
 )

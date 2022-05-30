@@ -1,0 +1,40 @@
+.contenedor-sobre-mi{
+    
+    width: 70%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-sobre-mi p{
+    text-align: center;
+    color: rgb(167, 180, 191);
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.contenedor-sobre-mi h1{
+    text-align: center;
+    color: rgb(210, 173, 243);
+    font-family: 'Kanit', sans-serif;
+}
+.sobre-mi{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.img-tablet{
+    max-width: 100%;
+    width: 800px ;
+}
+.texto-responsive{
+    color: rgb(167, 180, 191);
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.row-sobre-mi{
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}

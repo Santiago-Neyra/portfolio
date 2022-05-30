@@ -9,25 +9,29 @@
     padding-left: 5px !important;
     padding-right: 5px !important;
     text-align: center;
+    font-family: 'Kanit', sans-serif;
     
 }
 .nav-link:hover{
-    color: rgb(135, 228, 216);
+    color: rgb(210, 173, 243);
     transform: scale(1.1);
     transition: 0.5s;
-    border-bottom: 2px solid rgb(135, 228, 216);
+    border-bottom: 2px solid rgb(210, 173, 243);
+    
 
     
 }
 .navbar-brand{
-    color: rgb(169, 169, 169);
-    font-size: 3rem;
+    color: rgb(210, 173, 243);
+
+    
     font-weight: bold;
     width: 50%;
     text-align: center;
+    font-family: 'Kanit', sans-serif;
 }
 .navbar-brand:hover{
-    color: rgb(135, 228, 216);
+    color: rgb(210, 173, 243);
 }
 .navbar-collapse{
     justify-content: space-around;
@@ -41,4 +45,17 @@
 }
 .navbar{
     height: 15%;
+}
+.text-brand{
+    max-width: 100%;
+    font-size: 2.5rem;
+}
+.hamburguesa{
+    width: 50px;
+    
+}
+.navbar-toggler-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

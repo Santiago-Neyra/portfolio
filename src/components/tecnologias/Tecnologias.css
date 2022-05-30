@@ -1,6 +1,7 @@
 .titulo-tecnologia{
     text-align: center;
-    color: rgb(169, 169, 169);
+    color: rgb(210, 173, 243);
+    font-family: 'Kanit', sans-serif;
 }
 .icon-tecno{
     height: 80px;
@@ -8,18 +9,47 @@
 }
 .titulo-curriculum{
     text-align: center;
-    color: rgb(169, 169, 169);
+    color: rgb(210, 173, 243);
+    font-family: 'Kanit', sans-serif;
 }
 .container-tecnoycv{
-    width: 90%;
+    width: 80%;
     margin: auto;
+    
+    
 }
 .cont-icon{
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin: 20px;
 }
 .container-tecno{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.curriculum{
+    height: 250px;
+    width: auto;
+}
+.button-descarga{
+    width: 125px;
+    margin: auto;
+    margin-top: 20px !important;
+    background-color: black;
+    border: none;
+    color: rgb(169, 169, 169);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.container-cv{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
